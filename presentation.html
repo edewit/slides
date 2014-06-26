@@ -1,0 +1,421 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google IO 2012</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/app.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+ <slide class="fill nobackground" style="background-image: url(images/aerogear_desktop_1024x800.jpg)">
+ </slide>
+ 
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="images/aerogear_icon.svg"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <hgroup class="auto-fadein">
+    <h1 data-config-title><!-- populated from slide_config.json --></h1>
+    <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+    <p data-config-presenter><!-- populated from slide_config.json --></p>
+      <img alt="red hat jboss" src="images/red hat jboss.png" style="position: absolute; left: 550px;"/>
+  </hgroup>
+</slide>
+
+
+<slide class="nobackground" >
+  
+    <hgroup>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article class="nobackground"><p><img src="images/phonegap-architecture.jpg" alt="architecture" class="stretched"></p></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="plugins" src="images/phonegap-plugins.jpg" /></p></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Uncanny Valley</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="scary" src="images/uncanny-valley.jpg" /></p>
+<footer class="source">source: csmonitor</footer></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Showcase apps</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img src="images/untappd1.jpg" alt="untappd" width="52%"/>
+<img alt="bbc sport" src="images/bbc-sport.jpg" /></p>
+<footer class="source">source: phonegap</footer></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Frameworks</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><style>
+  #logos {
+    border-spacing: 0;
+    box-shadow: 0 10px 14px -5px black;
+  }
+  #logos tr{
+    background-color:#999;
+  }
+  #logos td{
+    text-align: center;
+  }
+</style>
+
+<table id="logos">
+  <tr>
+    <td>
+      <img src=images/logos/AngularJS-large.png>
+    <td>
+      <img src=images/logos/backbone.png>
+    <td>
+      <img src=images/logos/jquery.png>
+  <tr>
+    <td>
+      <img src=images/logos/ionic-logo-white.svg width=155px>
+    <td>
+      <img src=images/logos/requirejs.png>
+    <td>
+      <img src=images/logos/sencha.png>
+  <tr>
+    <td>
+      <img src=images/logos/topcoat.png>
+    <td>
+      <img src=images/logos/twitter_bootstrap.jpeg>
+    <td>
+</table></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Other goodies</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><table id="logos">
+  <tr>
+    <td>
+      <img src=images/logos/errai.png>
+    <td>
+      <img src=images/logos/gwt.png>
+  <tr>
+    <td>
+      <img src=images/logos/ceylon.png>
+    <td>
+      <img src=images/logos/dart.png>
+</table></article>
+ 
+</slide>
+
+<slide class="big" >
+  
+    <hgroup>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article ><div class="phone-case">
+  <div>
+    <iframe id="cp_embed_JsHjf" src="//codepen.io/anon/embed/JsHjf?height=568&amp;theme-id=3572&amp;slug-hash=JsHjf&amp;default-tab=result" scrolling="no" frameborder="0" height="568" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+  </div>
+  <script async="" src="//codepen.io/assets/embed/ei.js"></script>
+</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Starting a mobile project</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="command">
+#several yeoman generators
+yo ionic
+yo angular-cordova
+yo cordova
+
+#grunt
+grunt cordova:build
+grunt platform:add:android
+grunt ripple
+
+</pre></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img src="images/aerogear_icon.svg"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Demo time</h2>
+      <h3>let's code some stuff</h3>
+    </hgroup>
+  
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>AeroGear</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="AeroGear" src="images/logos/aerogear-lib.png" /></p></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Complex</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img src="images/complex_push.png" width="85%"></img></p></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>AeroGear UnifiedPush</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="UnifiedPush" src="images/aerogear_unified_push_server.png" /></p></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img src="images/aerogear_icon.svg"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Demo time</h2>
+      <h3>let's code some stuff</h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Pipes</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="javascript">
+var memberPipe  = AeroGear.Pipeline([{
+  name: "members",
+  settings: {
+      baseURL: "http://todo-aerogear.rhcloud.com/rest/"
+  }
+}]).pipes.members;
+</pre>
+
+<pre class="prettyprint" data-lang="javascript">
+memberPipe.read({
+  success: function( data ) {
+    ...
+    $( "#members" ).html( buildMemberRows() );
+  },
+  error: function (error) {
+    console.log(error);
+  }
+});
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Pipes on Android</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="java">
+Pipeline pipeline = new Pipeline("http://todo-aerogear.rhcloud.com/rest/");
+pipeline.pipe(Member.class);
+LoaderPipe&lt;Member> pipe = pipeline.get("member", this);
+</pre>
+
+<pre class="prettyprint" data-lang="java">
+
+pipe.read(new AbstractActivityCallback&lt;List&lt;Member>>(){
+    void onSuccess(List&lt;Member> data) {
+        ...
+    }
+    void onFailure(Exception e){
+        //Gracefully handle the exception
+    }    
+});
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Pipes on iOS</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="ios">
+// Create the 'Pipe'
+NSURL* serverURL = [NSURL URLWithString:@"http://todo-aerogear.rhcloud.com/rest/"];
+AGPipeline* memberPipe = [AGPipeline pipelineWithBaseURL:serverURL];
+id&lt;AGPipe> projects = [todo pipe:^(id&lt;AGPipeConfig> config) {
+  [config setName:@"members"];
+}];
+</pre>
+
+<pre class="prettyprint" data-lang="ios">
+// Read
+[memberPipe read:^(id response) {
+  ...
+  [self.tableView reloadData];
+} failure: ^(NSError *error) {
+  NSLog(@"Error: \n%@", error);
+}];
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>DataManager</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="javascript">
+var dm = AeroGear.DataManager( "tasks" ).stores[ 0 ];
+
+dm.save({
+    id: 12345,
+    title: "Created Task"
+});
+
+var allData = dm.read();
+var justOne = dm.read( 12345 );
+
+var filteredData = dm.filter({
+    date: "2012-08-01",
+    user: "admin"
+});
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Crypto</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="javascript">
+var rawPassword =
+AeroGear.Crypto().deriveKey( PASSWORD ),
+utf8String = sjcl.codec.utf8String,
+hex = sjcl.codec.hex,
+cipherText,
+options = {
+    IV: hex.toBits( BOB_IV ),
+    AAD: hex.toBits( BOB_AAD ),
+    key: rawPassword,
+    data: utf8String.toBits( PLAIN_TEXT )
+};
+
+cipherText = AeroGear.Crypto().encrypt( options );
+options.data = cipherText;
+plainText = AeroGear.Crypto().decrypt ( options );
+equal( utf8String.fromBits( plainText ),    PLAIN_TEXT, "Encryption has failed" );
+</pre></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>AeroGear Cordova Geo</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="Geo" src="images/SearchRadius.png" /></p></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>AeroGear Cordova Crypto</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="Crypto" src="images/lock.jpg" /></p></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="images/aerogear_icon.svg"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Thank You!&gt;</h2>
+<!--    <p>Important contact information goes here.</p>-->
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    <!-- populated from slide_config.json -->
+  </p>
+</slide>
+
+<!-- <slide class="logoslide dark nobackground">
+  <article class="flexbox vcenter">
+    <span><img src="images/google_developers_logo_white.png"></span>
+  </article>
+</slide> -->
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>

@@ -1,0 +1,1 @@
+groovy -Dwebdriver.chrome.driver=/Users/edewit/Downloads/chromedriver  slide2pdf http://localhost:8000/presentation.html

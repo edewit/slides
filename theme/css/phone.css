@@ -1,0 +1,57 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3/transition.
+              Load paths:
+                /Users/edewit/workspace/slides/theme
+                /Users/edewit/workspace/slides/theme/scss
+        on line 1 of scss/phone.scss
+
+1: @import "compass/css3/transition";
+2: 
+3: 
+4: /*Smartphones (portrait and landscape) ----------- *\/
+5: /*@media only screen
+6: and (min-width : 320px)
+
+Backtrace:
+scss/phone.scss:1
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:45:in `import'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin.rb:107:in `method_missing'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/exec.rb:463:in `watch_or_update'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/exec.rb:326:in `process_result'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/exec.rb:41:in `parse'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/exec.rb:21:in `parse!'
+/Users/edewit/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/bin/sass:13:in `<top (required)>'
+/Users/edewit/.rvm/gems/ruby-2.1.0/bin/sass:23:in `load'
+/Users/edewit/.rvm/gems/ruby-2.1.0/bin/sass:23:in `<main>'
+/Users/edewit/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/edewit/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3/transition.\A               Load paths:\A                 /Users/edewit/workspace/slides/theme\A                 /Users/edewit/workspace/slides/theme/scss\A         on line 1 of scss/phone.scss\A \A 1: @import \"compass/css3/transition\";\A 2: \A 3: \A 4: /*Smartphones (portrait and landscape) ----------- */\A 5: /*@media only screen\A 6: and (min-width : 320px)"; }
